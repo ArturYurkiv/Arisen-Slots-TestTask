@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c603242f2698f1e4182df2e2fac5c64e, type: 3}
+  m_Name: BasicSlotMachine
+  m_EditorClassIdentifier: 
+  SlotItems:
+  - {fileID: 21300000, guid: 2cebd83525ddb044a8dd723733ea7f80, type: 3}
+  - {fileID: 21300000, guid: 800ff80241e57aa4caa00d2f0f236776, type: 3}
+  - {fileID: 21300000, guid: fb34171a864e44741b11ffad1f35f95f, type: 3}
+  - {fileID: 21300000, guid: f074b1c335a73bb4ab1903098349b83e, type: 3}
+  - {fileID: 21300000, guid: cf3ebacc90d3b754bbd546070c96a09b, type: 3}
+  - {fileID: 21300000, guid: 16ee3124bee7ff446b1cc03d49cad2ad, type: 3}
+  - {fileID: 21300000, guid: 9cf84ab16638efb43beb3cdf4aabf0a5, type: 3}
+  ExtraRaw: {fileID: 21300000, guid: 800ff80241e57aa4caa00d2f0f236776, type: 3}
+  SlotColumnCount: 4
+  MinStartShiftCount: 5
+  MaxStartShiftCount: 10
+  MinSpinCost: 10
+  MaxSpinCost: 100
+  WinChance: 50
+  TimeInterval: 0.12
+  SlotWinCombinations:
+  - WinIemSprite: {fileID: 21300000, guid: 2cebd83525ddb044a8dd723733ea7f80, type: 3}
+    RewardChance: 0
+    WinningMultiplier: 0
+  - WinIemSprite: {fileID: 21300000, guid: 800ff80241e57aa4caa00d2f0f236776, type: 3}
+    RewardChance: 70
+    WinningMultiplier: 1.5
+  - WinIemSprite: {fileID: 21300000, guid: fb34171a864e44741b11ffad1f35f95f, type: 3}
+    RewardChance: 60
+    WinningMultiplier: 1.7
+  - WinIemSprite: {fileID: 21300000, guid: f074b1c335a73bb4ab1903098349b83e, type: 3}
+    RewardChance: 50
+    WinningMultiplier: 1.7
+  - WinIemSprite: {fileID: 21300000, guid: cf3ebacc90d3b754bbd546070c96a09b, type: 3}
+    RewardChance: 40
+    WinningMultiplier: 2
+  - WinIemSprite: {fileID: 21300000, guid: 16ee3124bee7ff446b1cc03d49cad2ad, type: 3}
+    RewardChance: 30
+    WinningMultiplier: 2.5
+  - WinIemSprite: {fileID: 21300000, guid: 9cf84ab16638efb43beb3cdf4aabf0a5, type: 3}
+    RewardChance: 10
+    WinningMultiplier: 4
